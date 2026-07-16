@@ -1,0 +1,30 @@
+.hero-section {
+    background-color: #2e2f42;
+    color: #fff;
+    text-align: center;
+}
+.hero-title {
+    font-size: 56px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+font-weight: 700;
+line-height: 1.07;
+letter-spacing: 0.02em;
+}
+
+.hero-btn  {
+    
+    background-color: #4d5ae5;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+letter-spacing: 0.04em;
+cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404bbf;
+}
