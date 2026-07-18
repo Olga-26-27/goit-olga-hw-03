@@ -6,6 +6,11 @@ align-items: center;
 justify-content: flex-start;
 flex-direction: column;
 gap: 0px;
+border: 1px solid #000;
+padding-block: 120px;
+padding-inline: 0px;
+width: 1440px;
+height: 732px;
 }
 .team-case {
     background: #f4f4fd;

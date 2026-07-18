@@ -1,7 +1,39 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #2e2f42;
+  background-color: #ffffff;
+}
+.header {
+  border-bottom: 1px solid #e7e9fc;
+  padding: 24px 0;
+}
+
+.menu {
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: row;
+gap: 40px;
+width: 253px;
+height: 72px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+  
+}
 
   .nav {
     align-items: center;
     display: flex;
+    display: inline-block;
   }
   
   .logo {
@@ -43,6 +75,9 @@ align-items: flex-start;
 justify-content: flex-start;
 flex-direction: row;
 gap: 40px;
+padding-top: 24px;
+padding-bottom: 24px;
+display: inline-block;
   }
   
 .nav-link:hover,
@@ -60,6 +95,22 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 display: flex;
+
+align-items: center;
+justify-content: flex-start;
+flex-direction: row;
+gap: 40px;
+  }
+
+  .address-menu {
+    display: flex;
+align-items: center;
+justify-content: flex-start;
+flex-direction: row;
+gap: 40px;
+width: 344px;
+height: 72px;
+
   }
   
   .contacts-link:hover,
