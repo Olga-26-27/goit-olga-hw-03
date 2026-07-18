@@ -11,8 +11,8 @@ align-items: center;
 justify-content: flex-start;
 flex-direction: column;
 gap: 10px;
-padding-top 120px;
-padding-bottom 120px; 
+padding-top: 120px;
+padding-bottom: 120px; 
 }
 
 .container-portfolio {
